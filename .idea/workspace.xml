@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a35242-2a09-40af-8b6c-cb903efd56dd" name="Default Changelist" comment="" />
+    <list default="true" id="a3a35242-2a09-40af-8b6c-cb903efd56dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_2020_8_23_9_52.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -127,7 +152,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -143,26 +168,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598145239613</updated>
-      <workItem from="1598145241467" duration="1477000" />
+      <workItem from="1598145241467" duration="1870000" />
+      <workItem from="1598147550447" duration="591000" />
+      <workItem from="1598447005061" duration="985000" />
     </task>
     <servers />
   </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="shellPath" value="C:\Program Files\Git\bin\bash.exe" />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="174" key="#CLI_Interpreters" timestamp="1598146074695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="174" key="#CLI_Interpreters/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1598146074695" />
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1598447445263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598447445263" />
     <state x="707" y="382" width="532" height="280" key="FrameworkEditDialogDimensionKey" timestamp="1598146080262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="382" width="532" height="280" key="FrameworkEditDialogDimensionKey/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1598146080262" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1598146087023">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1598447527947">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1598146087023" />
+    <state x="461" y="164" key="SettingsEditor/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1598147509341" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598447527947" />
+    <state x="762" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598148141698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="762" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1598148141698" />
     <state x="74" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1598146060490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
