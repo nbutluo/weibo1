@@ -10904,3 +10904,8 @@ a.text-dark:focus {
   }
 }
 
+body {
+  font-size: 14px;
+  font-weight: normal;
+}
+
