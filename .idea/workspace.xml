@@ -16,7 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a35242-2a09-40af-8b6c-cb903efd56dd" name="Default Changelist" comment="" />
+    <list default="true" id="a3a35242-2a09-40af-8b6c-cb903efd56dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,13 +165,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="artisan route:list" />
       <command value="artisan clear-compiled" />
       <command value="artisan make:controller UsersController" />
+      <command value="artisan migrate:rollback" />
+      <command value="artisan migrate" />
     </option>
   </component>
   <component name="RunManager">
@@ -243,27 +247,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="382" width="532" height="280" key="FrameworkEditDialogDimensionKey/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1598146080262" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1598531950650">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1598535728749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598531950650" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1598531950650">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598535728749" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1598535728748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598531950650" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1598531950650">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598535728748" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1598535728748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598531950650" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1598531950650">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598535728748" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1598535728748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598531950650" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1598497531966">
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598535728748" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1598535451279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1598147509341" />
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598497531966" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598535451279" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1598532477376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -276,13 +280,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="74" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1598146060490" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1598531923205">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1598535531783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598531923205" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598531930638">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598535531783" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598535292216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598531930638" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598535292216" />
   </component>
 </project>
