@@ -10935,3 +10935,22 @@ footer img.brand-icon {
   height: 17px;
 }
 
+section.user_info {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+section.user_info .gravatar {
+  float: none;
+  max-width: 70px;
+  border-radius: 50%;
+}
+
+section.user_info h1 {
+  font-size: 1.4em;
+  margin-top: 15px;
+  color: #555;
+  margin-bottom: 3px;
+}
+

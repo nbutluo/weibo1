@@ -31,3 +31,21 @@ footer {
         height: 17px;
     }
 }
+
+section.user_info {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    .gravatar {
+        float: none;
+        max-width: 70px;
+        border-radius: 50%;
+    }
+    h1 {
+        font-size: 1.4em;
+        margin-top: 15px;
+        color: #555;
+        margin-bottom: 3px;
+    }
+}
