@@ -9,7 +9,7 @@
             <div class="card-body">
                 @include('shared._errors')
                 <div class="gravatae_edit">
-                    <a href="http://gravatar.com/emails" target="_blank" class="gravatar_edit">
+                    <a href="http://gravatar.com/email" target="_blank" class="gravatar_edit">
                         <img src="{{ $user->gravatar('100') }}" alt="" class="gravatar">
                     </a>
                 </div>

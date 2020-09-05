@@ -22,6 +22,8 @@ $factory->define(App\Models\User::class, function (Faker $faker) {
         'email_verified_at' => now(),
         'password' => '$2y$10$X9gHbwSESKBZv3dZGHmdYeXNDNPPVwGq6OlHgg0DPa8yiChLwoMKK', // admin888
         'remember_token' => Str::random(10),
+        'activation_token' => Str::random(30),
+        'activated' => true,
         'created_at' => $date_time,
         'updated_at' => $date_time,
     ];
