@@ -39,7 +39,7 @@ section.user_info {
 
     .gravatar {
         float: none;
-        max-width: 70px;
+        max-width: 100px;
         border-radius: 50%;
     }
 
@@ -59,4 +59,9 @@ gravatar_edit {
         float: none;
         max-width: 100px;
     }
+}
+.gravatar {
+    float: none;
+    max-width: 50px;
+    border-radius: 50%;
 }

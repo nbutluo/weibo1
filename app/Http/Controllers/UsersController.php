@@ -12,10 +12,10 @@ class UsersController extends Controller
     public function __construct()
     {
         $this->middleware('auth', [
-            'except' => ['show','create','store','index','confirmEmails']
+            'except' => ['show', 'create', 'store', 'index', 'confirmEmails']
         ]);
 
-        $this->middleware('guest',[
+        $this->middleware('guest', [
             'only' => ['create']
         ]);
     }
@@ -23,7 +23,7 @@ class UsersController extends Controller
     public function index()
     {
         $users = User::paginate(10);
-        return view('users.index',compact('users'));
+        return view('users.index', compact('users'));
     }
 
     public function create()
@@ -31,10 +31,12 @@ class UsersController extends Controller
         return view('users.create');
     }
 
-    public function show()
+    public function show(User $user)
     {
-        $user = User::first();
-        return view('users.show', compact('user'));
+        $statuses = $user->statuses()
+                        ->orderBy('created_at', 'desc')
+                        ->paginate(5);
+        return view('users.show', compact('user','statuses'));
     }
 
     public function store(Request $request)
