@@ -1,7 +1,7 @@
 <form action="{{ route('statuses.store') }}" method="POST">
     @csrf
     @include('shared._errors')
-    <textarea name="content" class="form-control" rows="3" placeholder="说说新鲜事儿~"></textarea>
+    <textarea name="content" class="form-control" rows="3" placeholder="说说新鲜事儿~" >{{ old('content') }}</textarea>
     <div class="text-right">
         <button class="btn btn-primary mt-3">发布</button>
     </div>
