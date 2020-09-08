@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Auth;
 
 class StaticPagesController extends Controller
 {
-    public function home()
+    public function home(User $user)
     {
         $feed_items = [];
         if (Auth::check()) {
